@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-google-ads-transparency-monitor": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-google-ads-transparency-monitor"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "manifest_version": "0.3",
+  "name": "mcp-google-ads-transparency-monitor",
+  "version": "1.0.0",
+  "description": "MCP server for Google Ads Transparency Monitor. See every Google ad a company runs: one row per ad from the Ads Transparency Center with format, first and last shown dates, creative link, and permalink, plus a company summary row with the total ad count band. Runs on Apify. Clay-ready output.",
+  "author": {
+    "name": "Mamba Labs"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/mambalabsdev/mcp-google-ads-transparency-monitor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-google-ads-transparency-monitor"
+  },
+  "server": {
+    "type": "node",
+    "entry_point": "build/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": [
+        "${__dirname}/build/index.js"
+      ],
+      "env": {
+        "APIFY_TOKEN": "${user_config.apify_token}"
+      }
+    }
+  },
+  "user_config": {
+    "apify_token": {
+      "type": "string",
+      "title": "Apify API Token",
+      "description": "Apify API token for running the actor",
+      "sensitive": true,
+      "required": false
+    }
+  }
+}
