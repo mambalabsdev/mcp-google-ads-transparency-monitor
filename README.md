@@ -104,7 +104,7 @@ Rows with no ads, blocked rows, changed source rows, error rows, and cached rows
 
 ## Your keys
 
-The actor needs no provider key. It reads Google's public Ads Transparency Center and holds no key of its own. Proxy traffic, if a run uses the Apify proxy, is billed to your Apify account by Apify.
+The actor needs no provider key. It reads Google's public Ads Transparency Center and holds no key of its own. If a run uses the Apify proxy, that traffic adds nothing to your price: Mamba Labs pays the platform costs of the run. `proxy_mode` is a reliability setting.
 
 ## Full actor documentation
 

@@ -247,7 +247,7 @@ server.registerTool(
         .describe("true reads fresh results instead of the free 24 hour cache in your account. Default false."),
       proxy_mode: z.enum(["auto", "direct", "residential"])
         .optional()
-        .describe("auto connects directly and moves to the Apify proxy default pool if Google refuses a request; direct never uses a proxy; residential uses Apify residential proxy. Apify bills proxy traffic to your account. Default auto."),
+        .describe("auto connects directly and moves to the Apify proxy default pool if Google refuses a request; direct never uses a proxy; residential uses Apify residential proxy. Proxy use adds nothing to the price. Default auto."),
     },
   },
   async (args) => runActor("1eOwxhBVxzvOXAm4s", "Google Ads Transparency Monitor", compact(args as Record<string, unknown>)),
