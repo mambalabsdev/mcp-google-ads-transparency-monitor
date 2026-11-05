@@ -4,7 +4,7 @@
 
 <a href="https://mcprush.com/to/google-ads-transparency-monitor-mcp?ref=badge"><img width="380" height="200" src="https://mcprush.com/badge/google-ads-transparency-monitor-mcp/card.svg" alt="Google Ads Transparency Monitor MCP server" /></a>
 
-An MCP server for the Mamba Labs Google Ads Transparency Monitor actor on Apify. Give it a company domain or an advertiser name. Each run reads Google's public Ads Transparency Center and returns one row per ad, with the format, first and last shown dates, a creative link, and the ad's page, plus a company summary row with Google's total ad count band.
+An MCP server for the Mamba Labs [Google Ads Transparency Center Scraper by Domain](https://apify.com/mambalabs/google-ads-transparency-monitor) actor on Apify. Give it a company domain or an advertiser name. Each run reads Google's public Ads Transparency Center and returns one row per ad, with the format, first and last shown dates, a creative link, and the ad's page, plus a company summary row with Google's total ad count band.
 
 ## What's Inside
 
